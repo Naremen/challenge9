@@ -55,8 +55,7 @@ Join salaries on employees.emp_no = salaries.emp_no;
 --Question number 2
 Select first_name, last_name, hire_date
 from employees
-where hire_date >= '1986-01-01'
-and hire_date <'1987-01-01';
+where hire_date between '1986-01-01' and '1987-01-01';
 
 --Question number 3
 SELECT dept_manager.dept_no, dept_manager.emp_no, departments.dept_name, employees.last_name, employees.first_name
