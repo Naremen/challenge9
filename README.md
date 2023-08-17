@@ -13,6 +13,7 @@
 
 # Data Analysis
   After all of the tables are correct and the CSV files are loaded in, there are eight questions you need to answer.
+    
     1.) List the employee number, last name, first name, sex, and salary of each employee.
 
     2.) List the first name, last name, and hire date for the employees who were hired in 1986.
